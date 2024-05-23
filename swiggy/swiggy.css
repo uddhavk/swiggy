@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+.location{
+    height: 60px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+}
+.right{
+    height: 60px;
+    width: 20%;
+    /* background-color: orange; */
+    color: orangered;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* padding-right: 1vw; */
+}
+.mid{
+    height: 60px;
+    width: 40%;
+    /* background-color: rgb(212, 57, 179); */
+    display: flex;
+    align-items: center;
+    padding-left: 4vw;
+}
+.left{
+    height: 60px;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+}
+.button0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order{
+    height: 60%;
+    width: 100%;
+    /* background-color: deeppink; */
+}
+.food{
+    height: 10%;
+    width: 100%;
+    /* background-color: lime; */
+}
+.question{
+    height: 60px;
+    width: 100%;
+    /* background-color: darkblue; */
+    display: flex;
+}
+.dilivery{
+    height: 250px;
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.button1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 7vw;
+    font-size: 2.5vw;
+}
+button{
+ padding: 7.5px 50px;
+ color: grey;
+ border-radius: 11px;
+ border: 1px solid gray;
+}
+
+.order{
+    padding-left: 2vw;
+    padding-top: 4vw;
+    background-image: url(/top-view-fresh-delicious-chinese-food-dark-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.order,h1{
+    color: white;
+}
+.question,h2{
+    padding-left: 3.5vw;
+    padding-top: .6vw;
+    font-weight: 600;
+}
+.icon{
+    padding-left: 65vw;
+    padding-top: .6vw;
+    font-weight: 200;
+    font-size: x-large;
+    color: grey;
+}
+.pizza{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url(Pizza.avif);
+    background-size: cover;
+    background-position: center;
+}
+.indian{
+    width: 20%;
+    height: 100%;
+    background-color: coral;
+    background-image: url(North_Indian_4.avif);
+    background-size: cover;
+    background-position: center; 
+}
+.burger{
+    width: 20%;
+    height: 100%;
+    background-color: deeppink;
+    background-image: url(Burger.avif);
+    background-size: cover;
+    background-position: center;
+}
+.chinese{
+    width: 20%;
+    height: 100%;
+    background-color: cornflowerblue;
+    background-image: url(Chinese.avif);
+    background-size: cover;
+    background-position: center;
+}
+/* .uppizza{
+    height: 75%;
+    width: 100%;
+    background-color: rgb(255, 0, 81);
+    background-image: url(Pizza.avif);
+    background-size: cover;
+    background-position: center;
+}
+.downpizza{
+    height: 25%;
+    width: 100%;
+    background-color: blueviolet;
+} */
